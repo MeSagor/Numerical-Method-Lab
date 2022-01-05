@@ -8,5 +8,10 @@ public class Main {
         newtonRaphson newton = new newtonRaphson(-20.0, 0.00001);
         System.out.println();
         Secant sec = new Secant(-2, 2, 0.00001);
+        System.out.println();
+
+        int X[] = {95, 85, 80, 70, 60};
+        int Y[] = {90, 80, 70, 65, 60};
+        Leastsquare least = new Leastsquare(X, Y);
     }
 }
